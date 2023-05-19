@@ -112,9 +112,10 @@ class Program
         Mahasiswa mahasiswa = new Mahasiswa();
         //mahasiswa.nama = "Budi"; // Error
         //Console.WriteLine(mahasiswa.nama); // Error
-
-        //mahasiswa.Nama = "Budi";
-        //Console.WriteLine(mahasiswa.Nama);
+        
+        mahasiswa.Nama = "Budi";
+        Console.WriteLine(mahasiswa.Nama);
+        // ini changes baru
 
         Persegi persegi = new Persegi();
         persegi.Lebar = 12;
